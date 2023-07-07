@@ -1,0 +1,247 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+#app {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+/* LOGIN-REG */
+
+.login-reg {
+  display: flex;
+  justify-content: center;
+}
+
+#register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50vh;
+  padding-right: 10vw;
+  background-color: red;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50vh;
+}
+
+
+/* User Portal */
+
+#user-portal {
+  display: flex;
+  justify-content: center;
+}
+
+.user-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10em;
+  /* background-color: blue; */
+}
+
+.user-options ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: blue; */
+}
+
+#user-current-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+  padding-left: 5em;
+  /* background-color: green; */
+}
+
+/* Ticket Pages */
+
+#new-ticket {
+  display: flex;
+}
+
+
+#ticket-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  width: 20vw;
+  /* background-color: red; */
+  padding-left: 2vw;
+
+}
+
+/* User Data */
+
+.user-data {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: auto;
+}
+
+/* Ticket Info */
+.ticket-info {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: auto;
+}
+
+/* Ticket Assign */
+.ticket-assign {
+  /* background-color: dodgerblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: auto;
+}
+
+/* Ticket Notes */
+.ticket-notes {
+  /* background-color: purple; */
+  height: 100%;
+  width: 60vw;
+}
+
+.note-cat {
+  /* background-color: red; */
+  height: 4vh;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.cat-details {
+  height: 4vh;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.details-enlarge {
+  /* background-color: red; */
+  height: 10vh;
+  width: 55vw;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Knowlege Base */
+
+#knowlege-base {
+  height: 100%;
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#knowlege-search-input {
+  width: 15vw;
+}

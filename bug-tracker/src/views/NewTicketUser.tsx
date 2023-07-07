@@ -98,7 +98,7 @@ function CreateNewTicket() {
                 <input
                   type="text"
                   name="ticketNum"
-                  placeholder="Just for now until flask"
+                  placeholder="Ticket Number"
                   value={ticketData.ticketNum}
                   onChange={handleInputChange}
                 />
@@ -118,7 +118,7 @@ function CreateNewTicket() {
                   type="text"
                   id="company-id"
                   name="companyName"
-                  placeholder="Just until flask"
+                  placeholder="Company Name"
                   value={ticketData.companyName}
                   onChange={handleInputChange}
                 />
@@ -128,6 +128,7 @@ function CreateNewTicket() {
                   type="tel"
                   id="customer-tel"
                   name="customerTel"
+                  placeholder="555-555-5555"
                   value={ticketData.customerTel}
                   onChange={handleInputChange}
                 />
@@ -153,6 +154,8 @@ function CreateNewTicket() {
                   users={agents} // Pass the agents array directly
                   handleSelectChange={handleSelectChange}
                 />
+                {/* <label htmlFor="assignee">Assignee: </label>
+                <input type="text" id="ticket-assignee" placeholder="Assignee" name="assignee" onChange={handleInputChange}/> */}
                 <DropdownMenuStatus />
                 <DropdownMenuReason />
                 <label htmlFor="resolution">Resolution: </label>

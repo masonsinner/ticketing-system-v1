@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 type Props = {}
 export default function NavBar({}: Props) {
   return (
-    <nav>
+    <nav id="navbar">
         <Link to="/home">Home</Link>&emsp;
         <Link to="/get-started">Register</Link>&emsp;
         <Link to="/get-started">Login</Link>&emsp;

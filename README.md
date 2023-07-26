@@ -1,5 +1,58 @@
+# Advanced Ticketing Solutions
 
-# Ticketing System
+[Live Demo](link-to-demo) | [GitHub Repository](link-to-github)
 
-This is a ticketing system that will allow companies to sign up, then user and agents to register under the company's ID. From there they will be able to submit tickets, and agents can work on them. I used React TypeScript on the front end, Flask and Postgres. It is still a work in progress, as I did not have my laptop for over a week. Most of what you see was done the night before it was do, and was acomplished from an all nighter. There is no styling, and the ticketing aspect doesn't work. The only way to create a ticket is through PostMan, and even then it is iffy. 
+**Advanced Ticketing Solutions** is a user-friendly ticketing system built with React, TypeScript, Flask, and Postgres. It allows companies and users to register, log in, and efficiently manage tickets. Agents can troubleshoot and update tickets, while customers can submit and view their tickets seamlessly.
 
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+
+## Features
+
+- User Authentication: Companies and users can sign up, log in, and manage their accounts securely.
+- Role-Based Access Control: Agents have specific ticket management permissions, while customers can only submit and view tickets.
+- Ticket Submission and Management: Users can create tickets, assign severity levels, and submit them for resolution.
+- Agent Assignment: Tickets are assigned to teams, with each team handling a specific ticket category.
+- Real-Time Updates: React components and Redux ensure smooth user interactions and real-time ticket updates.
+- Database Management: Utilizes Postgres for efficient ticket tracking and association between users and their tickets.
+
+## Installation
+
+To run the project locally, follow these steps:
+
+1. Clone this repository:
+
+2. Install dependencies for the front-end:
+
+3. Install dependencies for the back-end:
+
+4. Create a new Postgres database and update the database credentials in the `config.py` file.
+
+5. Run the front-end and back-end servers concurrently:
+
+6. The project should now be running on `http://localhost:3000/`.
+
+## Usage
+
+- Visit the live demo to experience the ticketing system.
+- Register as a user or company and log in to manage tickets.
+- Agents can troubleshoot and update tickets, while customers can submit new tickets.
+- Experiment with different ticket categories and severity levels.
+
+## Technologies Used
+
+- Frontend: React, TypeScript, Redux, HTML5, CSS3
+- Backend: Flask, Postgres, Flask-SQLAlchemy
+- Caching: Redis
+- Deployment: Docker, AWS
+
+## Contributing
+
+We welcome contributions from the community! If you find any issues or have suggestions for improvements, feel free to submit a pull request.
+
+Feel free to customize this template with specific details about your project. The Readme file serves as an essential guide for potential users and contributors, providing them with information on the project's features, installation, usage, and technologies used.

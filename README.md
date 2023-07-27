@@ -48,8 +48,6 @@ To run the project locally, follow these steps:
 
 - Frontend: React, TypeScript, Redux, HTML5, CSS3
 - Backend: Flask, Postgres, Flask-SQLAlchemy
-- Caching: Redis
-- Deployment: Docker, AWS
 
 ## Contributing
 

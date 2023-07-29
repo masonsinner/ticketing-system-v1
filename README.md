@@ -1,6 +1,6 @@
 # Advanced Ticketing Solutions
 
-[Live Demo](link-to-demo) | [GitHub Repository](link-to-github)
+[GitHub Repository](link-to-github)
 
 **Advanced Ticketing Solutions** is a user-friendly ticketing system built with React, TypeScript, Flask, and Postgres. It allows companies and users to register, log in, and efficiently manage tickets. Agents can troubleshoot and update tickets, while customers can submit and view their tickets seamlessly.
 
